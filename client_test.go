@@ -13,7 +13,7 @@ import (
 )
 
 func TestCheckRespWithEmptyUnsuccessfulResp(t *testing.T) {
-	req, err := http.NewRequest("get", "http://test.de", nil)
+	req, err := http.NewRequest("get", "http://testbunny.com", nil)
 	require.NoError(t, err)
 
 	resp := http.Response{
